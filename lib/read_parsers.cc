@@ -215,18 +215,6 @@ imprint_next_read_pair( ReadPair &the_read_pair, uint8_t mode )
 }
 
 
-#if (0)
-void
-IParser::
-_imprint_next_read_pair_in_allow_mode( ReadPair &the_read_pair )
-{
-    // TODO: Implement.
-    //	     Probably need caching of reads between invocations
-    //	     and the ability to return pairs which are half empty.
-}
-#endif
-
-
 void
 IParser::
 _imprint_next_read_pair_in_ignore_mode( ReadPair &the_read_pair )
